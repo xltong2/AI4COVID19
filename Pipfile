@@ -9,6 +9,8 @@ django-debug-toolbar = "*"
 gunicorn = "*"
 psycopg2-binary = "*"
 dj-database-url = "*"
+pillow = "*"
+tensorflow = "*"
 
 [dev-packages]
 
