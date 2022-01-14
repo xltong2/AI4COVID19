@@ -117,7 +117,7 @@ DATABASES = {
         'NAME': 'ai4covid19',
         'USER': 'django',
         'PASSWORD': 'password',
-        'HOST': 'localhost',
+        'HOST': 'ec2-3-227-15-75.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
