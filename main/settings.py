@@ -114,11 +114,7 @@ WSGI_APPLICATION = 'main.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-<<<<<<< HEAD
         'NAME': 'dd0gsmt9fmhng4',
-=======
-        'NAME': 'ai4covid19',
->>>>>>> 5e129698d0aef331e3bb6900deeee5d2a2c46ab8
         'USER': 'klnhrcmrrdixuo',
         'PASSWORD': '12a467974f1c1290fba073e297c2cf234eda770b6ee646e26d8b605d56054bf6',
         'HOST': 'ec2-3-227-15-75.compute-1.amazonaws.com',
