@@ -111,6 +111,12 @@ WSGI_APPLICATION = 'main.wsgi.application'
 #     }
 # }
 
+import psycopg2
+
+DATABASE_URL = os.environ['DATABASE_URL']
+
+conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
