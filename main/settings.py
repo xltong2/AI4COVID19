@@ -117,8 +117,8 @@ DATABASES = {
         'NAME': 'ai4covid19',
         'USER': 'django',
         'PASSWORD': 'password',
-        # 'HOST': 'localhost',
-        # 'PORT': '5432',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
