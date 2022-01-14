@@ -111,18 +111,12 @@ WSGI_APPLICATION = 'main.wsgi.application'
 #     }
 # }
 
-import psycopg2
-
-DATABASE_URL = os.environ['DATABASE_URL']
-
-conn = psycopg2.connect(DATABASE_URL, sslmode='require')
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'ai4covid19',
-        'USER': 'postgres',
-        'PASSWORD': 'abc123',
+        'USER': 'klnhrcmrrdixuo',
+        'PASSWORD': '12a467974f1c1290fba073e297c2cf234eda770b6ee646e26d8b605d56054bf6',
         'HOST': 'ec2-3-227-15-75.compute-1.amazonaws.com',
         'PORT': '5432',
     }
