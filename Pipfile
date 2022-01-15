@@ -8,9 +8,12 @@ django = "*"
 django-debug-toolbar = "*"
 gunicorn = "*"
 psycopg2-binary = "*"
-dj-database-url = "*"
 pillow = "*"
-tensorflow = "*"
+tensorflow-cpu = "*"
+comet-ml = "*"
+keras = "*"
+pandas = "*"
+librosa = "*"
 
 [dev-packages]
 
